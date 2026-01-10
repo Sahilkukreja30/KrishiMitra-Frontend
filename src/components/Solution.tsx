@@ -59,7 +59,7 @@ const Solution = () => {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-leaf-light/50 rounded-full px-4 py-2">
                 <span className="w-2 h-2 bg-accent rounded-full" />
-                <span className="text-sm font-medium text-foreground">100% Free to Use</span>
+                <span className="text-sm font-medium text-foreground">Market Price Agent</span>
               </div>
               <div className="flex items-center gap-2 bg-leaf-light/50 rounded-full px-4 py-2">
                 <span className="w-2 h-2 bg-primary rounded-full" />
@@ -67,7 +67,7 @@ const Solution = () => {
               </div>
               <div className="flex items-center gap-2 bg-leaf-light/50 rounded-full px-4 py-2">
                 <span className="w-2 h-2 bg-earth-dark rounded-full" />
-                <span className="text-sm font-medium text-foreground">Voice Support</span>
+                <span className="text-sm font-medium text-foreground">Weather Agent</span>
               </div>
             </div>
           </motion.div>

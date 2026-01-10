@@ -78,7 +78,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto"
           >
-            Instant crop guidance, pest detection, and market insights – all through WhatsApp in your language.
+            Smart crop advice, pest help, and market updates — directly on WhatsApp in your own language.
           </motion.p>
 
           {/* Tagline */}
@@ -86,7 +86,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg md:text-xl text-accent font-semibold mb-10 italic"
+            className="text-lg md:text-xl text-white font-bold mb-10 italic"
           >
             "Harvesting Knowledge, Sowing Success."
           </motion.p>
@@ -102,9 +102,6 @@ const Hero = () => {
               <MessageCircle className="w-5 h-5 group-hover:animate-pulse" />
               Start on WhatsApp
             </Button>
-            <Button variant="hero-outline" size="xl">
-              Learn More
-            </Button>
           </motion.div>
         </motion.div>
       </div>
@@ -119,7 +116,7 @@ const Hero = () => {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
-          className="flex flex-col items-center gap-2 text-primary-foreground/60"
+          className="flex flex-col items-center gap-2 text-white/80"
         >
           <span className="text-sm font-medium">Scroll to explore</span>
           <ArrowDown className="w-5 h-5" />

@@ -18,11 +18,6 @@ const benefits = [
     description: "Farmers already know how to use WhatsApp. Zero learning curve.",
   },
   {
-    icon: Mic,
-    title: "Voice Messages",
-    description: "Send voice messages in your language. No typing required.",
-  },
-  {
     icon: Image,
     title: "Easy Image Sharing",
     description: "Just click and send crop photos for instant disease detection.",

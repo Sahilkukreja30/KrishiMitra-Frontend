@@ -51,11 +51,11 @@ const HowItWorks = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4 bg-accent/20 px-4 py-1 rounded-full">
+          <span className="inline-block text-white font-semibold text-sm uppercase tracking-wider mb-4 bg-accent/40 px-4 py-1 rounded-full">
             How It Works
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-primary-foreground mb-6">
-            Simple Steps to <span className="text-accent">Smarter Farming</span>
+            Simple Steps to <span className="text-card-foreground">Smarter Farming</span>
           </h2>
           <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
             Getting help is as easy as sending a WhatsApp message. Here's how it works:

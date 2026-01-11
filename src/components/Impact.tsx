@@ -27,10 +27,10 @@ const impacts = [
 ];
 
 const Impact = () => {
-  const handleOnClick = ()=>{
+  const handleOnClick = () => {
     const phoneNumber = "+14155238886";
     const message = "join plenty-engine";
-    window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,"_blank")
+    window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank")
   }
   return (
     <section id="impact" className="py-20 md:py-32 earth-gradient relative overflow-hidden">
@@ -50,7 +50,7 @@ const Impact = () => {
             Changes We <span className="text-primary">Drive</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Every conversation on KrishiMitra helps build a more sustainable and 
+            Every conversation on KrishiMitra helps build a more sustainable and
             prosperous future for Indian agriculture.
           </p>
         </motion.div>
@@ -90,13 +90,30 @@ const Impact = () => {
             "Harvesting Knowledge, Sowing Success."
           </p>
           <p className="text-muted-foreground mb-8">
-            Join thousands of farmers who are already using KrishiMitra-AI to 
+            Join thousands of farmers who are already using KrishiMitra-AI to
             make smarter decisions and improve their yield.
           </p>
-          <Button variant="whatsapp" size="xl" className="group" onClick={handleOnClick}>
-            <MessageCircle className="w-5 h-5 group-hover:animate-pulse" />
-            Start Your Journey on WhatsApp
+          <Button
+            variant="whatsapp"
+            size="xl"
+            onClick={handleOnClick}
+            className="
+    group
+    flex items-center justify-center gap-2
+    w-full sm:w-auto
+    px-4 sm:px-6
+    py-3
+    text-sm sm:text-base
+    rounded-xl
+    whitespace-normal text-center
+  "
+          >
+            <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-pulse" />
+            <span className="leading-tight">
+              Start Your Journey on WhatsApp
+            </span>
           </Button>
+
         </motion.div>
       </div>
     </section>

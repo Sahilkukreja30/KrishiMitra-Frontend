@@ -29,7 +29,7 @@ const impacts = [
 const Impact = () => {
   const handleOnClick = ()=>{
     const phoneNumber = "+14155238886";
-    const message = "join than-union";
+    const message = "join plenty-engine";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,"_blank")
   }
   return (
